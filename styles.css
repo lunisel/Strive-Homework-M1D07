@@ -1,53 +1,133 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color: #eeeee4;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+#wholePageId{
+    margin: 0;
+}
+
+#pageTitle{
+    display: flex;
+    padding: 20px;
+    background-color: #eab676;
+    justify-content: center;
+}
+div#tableId{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+table{
+    width: 95%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+
 img{
     height: 100px;
 }
 
-#container {
-    display: flex;
-}
-
-#table{
+td.image {
     display: flex;
     justify-content: center;
-    border: solid black 1px;
+}
+table, th, td {
+    border: solid black 0.5px;
 }
 
-table{
-    justify-content: center;
-    align-items: center;
+tr#firstRow{
+    background-color: #F9eed8;
 }
- #before{
-     padding: 10px;
- }
 
- #after{
-     padding: 10px;
- }
+td.title{
+    text-align: center;
+}
 
- .price{
-     padding: 0 15px;
- }
+td.description{
+    text-align: center;
+}
 
- tr#firstRow {
-     background-color: gray;
- }
+td.price{
+    text-align: center;
+}
 
-#bottomPage {
+.price{
+    width: 80px;
+}
+
+.description{
+    width: 700px;
+}
+
+div#footerDivision{
     display: flex;
-    margin: 0;
-    background-color: gray;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: #9eb9be;
+    width: 100%;
+    height: 240px;
+    margin-top: 5px;
 }
 
-#footer{
-    margin: 1% 20%;
+h3{
+    margin: 10px;
+    text-align: center;
 }
 
-h4{
-    margin: 0;
+p#pOfWriteSomething{
+    margin: 5px 10px 20px 10px;
+    text-align: center;
+}
+
+div#textArea{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }
 
 textarea{
+    width: 500px;
+    height: 100px;
+}
+
+div#button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+div.footerContent{
+    display: flex;
+    justify-content: center;
+    background-color: #5c696b;
+    width: 100%;
     height: 50px;
-    width: 200px;
+}
+
+p#pOfFooter{
+    color: whitesmoke;
+}
+
+div#javaManipulation{
+    background-color: #Adc1c4;
+    width: 50%;
+    height: 240px;
+}
+
+div.writeSomething{
+    margin-left: 20px;
+}
+
+.java{
+    margin: 5px;
 }
