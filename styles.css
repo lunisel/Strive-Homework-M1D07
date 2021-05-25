@@ -32,13 +32,22 @@ table{
      background-color: gray;
  }
 
- footer {
-     background-color: gray;
-     display: flex;
- }
+#bottomPage {
+    display: flex;
+    margin: 0;
+    background-color: gray;
+    justify-content: space-around;
+}
 
- #footer{
-     display: flex;
-     text-align: center;
-     margin: 0 43%;
- }
+#footer{
+    margin: 1% 20%;
+}
+
+h4{
+    margin: 0;
+}
+
+textarea{
+    height: 50px;
+    width: 200px;
+}
