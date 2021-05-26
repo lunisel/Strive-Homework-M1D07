@@ -1,7 +1,10 @@
 html{
     margin: 0;
     padding: 0;
-    background-color: #eeeee4;
+}
+
+body{
+    background-color: #e3dacf;
 }
 
 body{
@@ -10,6 +13,10 @@ body{
 
 h1{
     margin: 0;
+}
+
+.h1newText{
+    content: "Your new Shop !"
 }
 
 #wholePageId{
@@ -111,23 +118,49 @@ div.footerContent{
     justify-content: center;
     background-color: #5c696b;
     width: 100%;
-    height: 50px;
+    height: 4vh;
+    align-items: center;
 }
 
 p#pOfFooter{
     color: whitesmoke;
+    font-size: 80%;
 }
 
 div#javaManipulation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #Adc1c4;
     width: 50%;
     height: 240px;
 }
 
-div.writeSomething{
-    margin-left: 20px;
-}
 
 .java{
     margin: 5px;
+}
+
+div#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 440px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+button{
+    width: fit-content;
+    height: 25px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.writeSomething{
+    margin-left: 3vh;
+}
+
+.active{
+    background-color: #3b3b3b;
 }

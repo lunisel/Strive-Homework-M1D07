@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -58,14 +58,20 @@
 <div id="footerDivision">
     <div class="writeSomething">
         <h3>Would you want to recommend other products?</h3>
-        <p id="pOfWriteSomething">Write write something here !</p>
+        <p id="pOfWriteSomething">Write something here !</p>
         <div id="textArea"><textarea></textarea></div>
         <div id="button"><button>Send</button></div>
     </div>
     <div id="javaManipulation">
         <h2 class="java">Change the aparence of the page!</h2>
         <p class="java">Try it now, click a button</p>
-        <button onclick="changeH1Content()">Change the title</button>
+        <div id="buttons">
+            <button onclick="changeH1Content()">Change the title</button>
+            <button onclick="changeH1ContentBack()">Change back the title</button>
+            <button onclick="changeBackground()">Change the background</button>
+            <button onclick="changeFooter()">Change Address</button>
+        </div>
+        
     </div>
 </div>
 <div class="footerContent">
